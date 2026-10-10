@@ -1,75 +1,80 @@
-Customer Retention and Churn Analysis Using Python
+# Sales and Profit Analysis Using Python
 
-Project Overview
+Exploratory data analysis of sales data using Python, Pandas and Matplotlib to understand sales and profit by category, customer segment and region.
 
-This project focuses on analyzing customer data using Python to understand customer behavior, identify retention patterns, and generate actionable business insights.
+## Business Problem
+Which product categories, customer segments and regions drive the most sales and profit?
 
-Objectives
+## Dataset
+- File: `CLEANED DATASET 2.csv`
+- Source: [dataset name / self-created: write what is true]
+- [X] rows and [X] columns
+- Columns used: Category, Customer_Segment, Region, Sales, Profit
 
-- Clean and prepare customer data for analysis.
-- Identify missing values and duplicate records.
-- Perform exploratory data analysis (EDA).
-- Analyze customer retention and churn patterns.
-- Create visualizations to communicate findings.
-- Provide data-driven recommendations for improving customer retention.
+## Analysis Steps
+1. Loaded the dataset with Pandas
+2. Checked the shape, column names, data types, missing values and duplicate rows
+3. Generated a statistical summary
+4. Calculated total sales, total profit and average sales
+5. Grouped sales and profit by category, customer segment and region
+6. Visualized the results with Matplotlib bar charts
 
-Tools and Technologies
+## Key Metrics
+- Total Sales: [value from output]
+- Total Profit: [value from output]
+- Average Sales: [value from output]
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- VS Code
+## Visualizations
 
-Project Structure
 
-customer-retention-and-churn-analysis/
-├── data/
-│   ├── customers.csv
-│   └── cleaned_customers.csv
-├── screenshots/
-├── python_analysis.py
-├── requirements.txt
-└── README.md
+![Sales by Category](Sales%20by%20Category.png)
 
-Key Analysis Areas
 
-- Data quality and preprocessing
-- Customer behavior patterns
-- Customer retention and churn metrics
-- Data visualization
-- Business insights and recommendations
 
-Installation and Usage
 
-1. Clone this repository:
-   
-   git clone YOUR_GITHUB_REPOSITORY_URL
+![Profit by Category](Profit%20by%20Category.png)
 
-2. Navigate to the project folder:
-   
-   cd customer-retention-and-churn-analysis
 
-3. Install the required libraries:
-   
-   pip install -r requirements.txt
 
-4. Run the Python script:
-   
-   python python_analysis.py
 
-Screenshots
+![Sales by Customer Segment](Sales%20by%20Customer%20Segment.png)
 
-Project screenshots will be added here to demonstrate the Python code, analysis outputs, and visualizations.
 
-Expected Business Value
 
-The analysis aims to help businesses understand customer behavior, recognize potential churn patterns, and make informed decisions to improve customer satisfaction and retention.
 
-Author
+![Sales by Region](Sales%20by%20Region.png)
 
-Aspiring Data Analyst | Python | SQL | Excel | Power BI
 
-Project Status
 
-Completed
+
+![Profit by Region](Profit%20by%20Region.png)
+
+
+
+## Key Insights
+1. [Category] has the highest sales ([amount]); [category] has the lowest
+2. [Category] generates the most profit
+3. [Customer segment] contributes the most sales
+4. [Region] has the highest sales and [region] the highest profit
+5. [Any region or category where sales are high but profit is low]
+
+## Recommendations
+- Focus marketing and stock on the top categories and regions
+- Review pricing and discounts where sales are high but profit is low
+- Target the top customer segment with offers
+
+## Files
+- `churn_analysis.py`: analysis script
+- `CLEANED DATASET 2.csv`: cleaned dataset
+- `requirements.txt`: required libraries
+- PNG files: chart outputs
+
+## How to Run
+pip install -r requirements.txt
+python churn_analysis.py
+
+## Tools
+Python, Pandas, NumPy, Matplotlib
+
+## Contact
+Vignesh K | vigneshkarna2005@gmail.com | [LinkedIn](https://www.linkedin.com/in/vignesh-k-a46146368)
