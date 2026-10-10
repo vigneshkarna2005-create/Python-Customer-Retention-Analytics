@@ -1,15 +1,14 @@
 # Sales and Profit Analysis Using Python
 
-Exploratory data analysis of sales data using Python, Pandas and Matplotlib to understand sales and profit by category, customer segment and region.
+Exploratory data analysis of e-commerce sales data using Python, Pandas and Matplotlib to understand sales and profit by category, customer segment and region.
 
 ## Business Problem
 Which product categories, customer segments and regions drive the most sales and profit?
 
 ## Dataset
-- File: `CLEANED DATASET 2.csv`
-- Source: [dataset name / self-created: write what is true]
-- [X] rows and [X] columns
+- File: `CLEANED DATASET 2.csv` (cleaned e-commerce sales data)
 - Columns used: Category, Customer_Segment, Region, Sales, Profit
+- Source: [dataset name / self-created: write what is true]
 
 ## Analysis Steps
 1. Loaded the dataset with Pandas
@@ -20,9 +19,9 @@ Which product categories, customer segments and regions drive the most sales and
 6. Visualized the results with Matplotlib bar charts
 
 ## Key Metrics
-- Total Sales: [value from output]
-- Total Profit: [value from output]
-- Average Sales: [value from output]
+- Total Sales: about 28.17M
+- Total Profit: about 5.20M
+- Profit Margin: about 18.5%
 
 ## Visualizations
 
@@ -52,16 +51,15 @@ Which product categories, customer segments and regions drive the most sales and
 
 
 ## Key Insights
-1. [Category] has the highest sales ([amount]); [category] has the lowest
-2. [Category] generates the most profit
-3. [Customer segment] contributes the most sales
-4. [Region] has the highest sales and [region] the highest profit
-5. [Any region or category where sales are high but profit is low]
+1. The business earned about 28.17M in sales and 5.20M in profit, a profit margin of about 18.5%.
+2. Electronics is the largest category in both sales and profit, while Bags and Stationery contribute very little.
+3. [Add the top customer segment from your Sales by Customer Segment chart]
+4. [Add the top region from your Sales by Region and Profit by Region charts]
 
 ## Recommendations
-- Focus marketing and stock on the top categories and regions
-- Review pricing and discounts where sales are high but profit is low
-- Target the top customer segment with offers
+- Focus marketing and stock on Electronics, since it drives most of the sales and profit
+- Review pricing and promotion for low-performing categories such as Bags and Stationery
+- Target the top customer segment and region with offers
 
 ## Files
 - `churn_analysis.py`: analysis script
